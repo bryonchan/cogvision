@@ -1,4 +1,4 @@
-const OMDB_API_URL = "http://www.omdbapi.com/";
+const OMDB_API_URL = "https://www.omdbapi.com/";
 
 export const search = (query, params = {page: 1}) => {
 

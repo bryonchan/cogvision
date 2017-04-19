@@ -10,7 +10,7 @@ const SearchBox = ({...props}) => {
         >
 	        <FormControl
 	            type="text"
-	            placeholder="Enter text"
+	            placeholder={props.placeholder}
 	            onChange={props.onChange}
 	          />
 	          {props.errorMessage && 

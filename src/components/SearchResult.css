@@ -4,9 +4,7 @@
   list-style: none;
   border: 1px solid #ccc;
   cursor: pointer; }
-
-.film-list-result img {
-  max-width: 100%; }
-
-.film-list-result .details {
-  word-break: break-all; }
+  .film-list-result img {
+    max-width: 100%; }
+  .film-list-result .details {
+    word-break: break-all; }

@@ -10,6 +10,7 @@ const SearchResult = ({ className, result, onGetDetails, details }) => {
 	    	if(typeof details[key] === 'string' ){
 	    		return <li key={key}>{key}: {details[key]}</li>
 	    	}
+	    	return null;
 	    });	
     }
     

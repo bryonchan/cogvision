@@ -1,5 +1,7 @@
 # CogVision (CognitionX Coding Challenge)
 
+## [Demo](https://cogvision-d1862.firebaseapp.com/)
+
 ## Packages used
 - React
 - Redux/Redux Thunk
