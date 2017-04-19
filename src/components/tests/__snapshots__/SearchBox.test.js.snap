@@ -1,0 +1,11 @@
+exports[`test renders correctly 1`] = `
+<div
+  className="form-group">
+  <input
+    className="form-control"
+    id="formBasicText"
+    onChange={undefined}
+    placeholder="Enter text"
+    type="text" />
+</div>
+`;

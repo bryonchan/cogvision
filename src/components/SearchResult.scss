@@ -1,0 +1,16 @@
+.film-list-result{
+	margin-top: 10px;
+    padding: 10px;
+    list-style: none;
+    border: 1px solid #ccc;
+    cursor: pointer;
+
+    img
+    { 
+    	max-width: 100%
+    }
+
+    .details{
+    	word-break: break-all;
+    }
+}

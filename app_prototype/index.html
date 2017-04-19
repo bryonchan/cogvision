@@ -1,0 +1,33 @@
+<!doctype html>
+<html class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <title>Film Search</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <div id="app">
+        <h1>Film Search</h1>
+
+        <input id="search-input" type="text" placeholder="Search...">
+
+        <span>sort:</span>
+        <input id="title-input" type="radio" name="sort-group" value="TITLE" checked="">
+        <label for="title-input">Title</label>,
+
+        <input id="date-input" type="radio" name="sort-group" value="DATE">
+        <label for="date-input">Date</label>
+
+        <ul class="film-list">
+        </ul>
+    </div>
+
+    <script src="scripts/jquery-2.2.1.min.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>

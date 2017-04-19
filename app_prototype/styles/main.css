@@ -1,0 +1,48 @@
+body
+{
+    font-family: helvetica, arial;
+    font-size: 16px;
+
+    background: #ccc;
+}
+
+input
+{
+    font-family: helvetica, arial;
+    font-size: 16px;
+}
+
+#app
+{
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 10px;
+
+    background: white;
+}
+
+.film-list
+{
+    padding: 0;
+}
+
+.film-list li
+{
+    margin-top: 10px;
+    padding: 10px;
+
+    list-style: none;
+
+    border: 1px solid #ccc;
+}
+
+.film-list li div
+{
+    margin-top: 10px;
+}
+
+.film-list li div img
+{
+    margin-top: 10px;
+}
